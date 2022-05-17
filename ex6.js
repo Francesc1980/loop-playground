@@ -10,14 +10,25 @@
  */
 
  let numeroFinal = 5;
+  
 
  for (let i=-5;i<numeroFinal; i++) {
     console.log("Voy a ejecutar el condicional para el número: " + i)
-    // Modificar a partir de aquí
-    console.log("Soy un número positivo!")
-    console.log("Soy un núemro negativo!")
-}
 
+    // Modificar a partir de aquí
+    if (i < 0 ) {
+        console.log("Soy un núemero negativo!")
+    } else {
+        if (i == 0) {
+            console.log("Soy un cero!")
+        } else {
+            console.log("Soy un número positivo!")
+        }
+    }
+    
+    
+}
+ 
 /**
  * Pregunta adicional BONUS.
  * 
